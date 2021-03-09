@@ -1,0 +1,28 @@
+{
+  "name": "<%= name %>",
+  "description": "<%= description %>",
+  "version": "<%= version %>",
+  "author": "<%= author %>",
+  "license": "<%= license %>",
+  "main": "webcomponents/es6/build.js",
+  "module": "webcomponents/amd/build.amd.js",
+  "dependencies": {
+    "promise-polyfill": "8.1.0",
+    "fetch-ie8": "1.5.0",
+<%- dependencies %>
+  },
+  "resolutions": {
+    "object-assign": "4.1.1",
+    "commander": "2.19.0",
+    "readable-stream": "1.1.14",
+    "isarray": "1.0.0",
+    "source-map": "0.5.7",
+    "kind-of": "6.0.2",
+    "is-number": "4.0.0",
+    "once": "1.4.0",
+    "minimist": "1.2.0",
+    "ajv": "6.6.2",
+    "fast-deep-equal": "2.0.1",
+    "json-schema-traverse": "0.4.1"
+  }
+}
